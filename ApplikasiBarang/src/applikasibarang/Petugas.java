@@ -1,3 +1,5 @@
+package applikasibarang;
+
 public class Petugas extends Orang{
 	private long id;
 	private String nama;
@@ -8,11 +10,11 @@ public class Petugas extends Orang{
 	}
 	
 	public void setNama(String nama){
-		this.nama=nama;
+		super.setNama(nama);
 	}
 	
 	public String getNama(){
-		return nama;
+		return super.getNama();
 	}
 	
 	public void setId(long id){
