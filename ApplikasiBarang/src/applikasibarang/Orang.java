@@ -1,3 +1,5 @@
+package applikasibarang;
+
 public abstract class Orang{
 	private String nama;
 	
